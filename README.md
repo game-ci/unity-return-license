@@ -3,19 +3,36 @@
 
 ---
 
-Part of the [Unity Actions](https://github.com/webbertakken/unity-actions) collection.
- 
- A GitHub 
-[Action](https://github.com/features/actions) 
-to return a Unity pro license. 
+GitHub Action to [return a Unity license](https://github.com/marketplace/actions/unity-return-license). 
 
-See all available actions in the [Marketplace](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=unity).
+Part of the [Unity Actions](https://github.com/webbertakken/unity-actions) collection.
 
 ---
 
 Use this action to return your Unity Pro license and free up a spot towards the 
 maximum number of active licenses.
 
+### Documentation
+
+See the 
+[Unity Actions](https://github.com/webbertakken/unity-actions)
+collection repository for complete workflow documentation and reference 
+implementations.
+
+
 ## Usage
 
 TBD
+
+
+## More actions
+
+Visit 
+[Unity Actions](https://github.com/webbertakken/unity-actions) 
+to find related actions for Unity.
+
+Feel free to contribute.
+
+## Licence 
+
+[MIT](./LICENSE)
