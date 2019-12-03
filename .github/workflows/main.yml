@@ -1,0 +1,23 @@
+name: Actions 😎
+on: [push]
+
+jobs:
+  activateAndThenReturnLicense:
+    name: returnLicense 🎈
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout repository (required to test local actions)
+      - name: Checkout repository
+        uses: actions/checkout@v1
+
+      # Activate Unity
+      - name: Activate Unity
+        uses: webbertakken/unity-activate@v1
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+      # Return License
+      - name: Return license
+        uses: ./
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
