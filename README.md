@@ -22,8 +22,17 @@ implementations.
 
 ## Usage
 
-TBD
+When your workflow is finished, or ends in a failure; return the license.
 
+Add this job to your workflow:
+
+```yaml
+      # Return License
+      - name: Return license
+        uses: webbertakken/unity-return-license@v0.1
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+```
 
 ## More actions
 
