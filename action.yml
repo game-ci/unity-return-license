@@ -1,0 +1,11 @@
+name: 'Unity - Return License'
+author: Webber Takken <webber@takken.io>
+description: 'Return a Unity Pro license and free up a spot towards the maximum number of active licenses.'
+inputs: {}
+outputs: {}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'box'
+  color: 'gray-dark'

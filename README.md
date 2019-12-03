@@ -9,7 +9,7 @@ Part of the [Unity Actions](https://github.com/webbertakken/unity-actions) colle
 
 ---
 
-Use this action to return your Unity Pro license and free up a spot towards the 
+Use this action to return a Unity Pro license and free up a spot towards the 
 maximum number of active licenses.
 
 ### Documentation
