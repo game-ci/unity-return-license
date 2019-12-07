@@ -35,7 +35,7 @@ Add this step to your workflow:
 ```yaml
       # Return License
       - name: Return license
-        uses: webbertakken/unity-return-license@v0.1
+        uses: webbertakken/unity-return-license@v1
         if: always()
 ```
 
