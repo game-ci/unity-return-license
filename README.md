@@ -9,8 +9,14 @@ Part of the [Unity Actions](https://github.com/webbertakken/unity-actions) colle
 
 ---
 
-Use this action to return a Unity Pro license and free up a spot towards the 
-maximum number of active licenses.
+### License types
+
+- **Personal:** This step is not necessary, as Unity does not allow returning of
+personal licenses.
+
+- **Professional:** Use this action to return your license and free up a spot 
+towards the maximum number of active licenses.
+
 
 ### Documentation
 
@@ -24,14 +30,13 @@ implementations.
 
 When your workflow is finished, or ends in a failure; return the license.
 
-Add this job to your workflow:
+Add this step to your workflow:
 
 ```yaml
       # Return License
       - name: Return license
         uses: webbertakken/unity-return-license@v0.1
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        if: always()
 ```
 
 ## More actions
