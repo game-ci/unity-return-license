@@ -1,52 +1,47 @@
-# Unity - Return License
+<div align="center">
+<a href="https://github.com/marketplace/actions/unity-return-license">
+<img width="800" src="media/UnityReturnLicense-Logo.png" alt="Unity Return License">
+</a>
+<br />
+<br />
+
+GitHub Action to [return a Unity license](https://github.com/marketplace/actions/unity-return-license).
+
+Part of the <a href="https://unity-ci.com"><img height="30" src="media/UnityCI-ReferenceLogo.png" alt="Unity CI"></a> open source project.
+<br />
+<br />
+
 [![Actions status](https://github.com/webbertakken/unity-return-license/workflows/Actions%20%F0%9F%98%8E/badge.svg?event=push&branch=master)](https://github.com/webbertakken/unity-return-license/actions?query=branch%3Amaster+event%3Apush+workflow%3A"Actions%20%F0%9F%98%8E")
+<br />
+<br />
 
----
+</div>
 
-GitHub Action to [return a Unity license](https://github.com/marketplace/actions/unity-return-license). 
+## How to use
 
-Part of the [Unity Actions](https://github.com/webbertakken/unity-actions) collection.
+Find the
+[docs](https://unity-ci.com/docs/github)
+on the Unity CI
+[website](https://unity-ci.com/).
 
----
+## Related actions
 
-### License types
+Visit the
+<a href="https://github.com/webbertakken/unity-actions"><img height="30" src="media/UnityActions-ReferenceLogo.png" alt="Unity Actions"></a>
+status repository for related Actions.
 
-- **Personal:** This step is not necessary, as Unity does not allow returning of
-personal licenses.
+## Community
 
-- **Professional:** Use this action to return your license and free up a spot 
-towards the maximum number of active licenses.
+Feel free to join us on
+<a href="http://unity-ci.com/discord"><img height="30" src="media/Discord-Logo.svg" alt="Discord" /></a>
+and engage with the community.
 
+## Contributing
 
-### Documentation
+To help out sharpen the documentation, please find the docs [repository](https://github.com/Unity-CI/Website).
 
-See the 
-[Unity Actions](https://github.com/webbertakken/unity-actions)
-collection repository for complete workflow documentation and reference 
-implementations.
+To contribute to this project, kindly read the [contribution guide](./CONTRIBUTING.md).
 
-
-## Usage
-
-When your workflow is finished, or ends in a failure; return the license.
-
-Add this step to your workflow:
-
-```yaml
-      # Return License
-      - name: Return license
-        uses: webbertakken/unity-return-license@v1
-        if: always()
-```
-
-## More actions
-
-Visit 
-[Unity Actions](https://github.com/webbertakken/unity-actions) 
-to find related actions for Unity.
-
-Feel free to contribute.
-
-## Licence 
+## Licence
 
 [MIT](./LICENSE)
