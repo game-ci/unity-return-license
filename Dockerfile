@@ -1,4 +1,4 @@
-FROM gableroux/unity3d:2019.2.11f1
+FROM unityci/editor:2019.2.11f1
 
 LABEL "com.github.actions.name"="Unity - Return License"
 LABEL "com.github.actions.description"="Return a Unity Pro license and free up a spot towards the maximum number of active licenses."
