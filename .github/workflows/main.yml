@@ -15,7 +15,7 @@ jobs:
 
       # Activate Unity
       - name: Activate Unity
-        uses: webbertakken/unity-activate@v1
+        uses: webbertakken/unity-activate@v1.3
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
