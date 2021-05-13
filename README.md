@@ -3,7 +3,6 @@
 (Not affiliated with Unity Technologies)
 
 GitHub Action to [return a Unity license](https://github.com/marketplace/actions/unity-return-license).
-
 Part of the <a href="https://game.ci">GameCI</a> open source project.
 <br />
 <br />
