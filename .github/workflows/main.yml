@@ -11,7 +11,7 @@ jobs:
     steps:
       # Checkout repository (required to test local actions)
       - name: Checkout repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       # Activate Unity
       - name: Activate Unity
