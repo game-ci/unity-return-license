@@ -7,7 +7,7 @@ Part of the <a href="https://game.ci">GameCI</a> open source project.
 <br />
 <br />
 
-[![Actions status](https://github.com/game-ci/unity-request-activation-file/actions/workflows/main.yml/badge.svg)](https://github.com/game-ci/unity-request-activation-file/actions/workflows/main.yml)
+[![Actions status](https://github.com/game-ci/unity-return-license/actions/workflows/main.yml/badge.svg)](https://github.com/game-ci/unity-return-license/actions/workflows/main.yml)
 <br />
 <br />
 
