@@ -1,7 +1,7 @@
 name: Actions 😎
 on:
   pull_request: {}
-  push: { branches: [master] }
+  push: { branches: [main] }
 
 jobs:
   activateAndThenReturnLicense:
