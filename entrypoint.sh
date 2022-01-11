@@ -11,5 +11,5 @@ if [[ -n "$UNITY_SERIAL" ]]; then
     -quit \
     -returnlicense
 else
-  echo "No UNITY_SERIAL detected! License not returned!"
+  echo "No UNITY_SERIAL detected! No license was returned."
 fi
