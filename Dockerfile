@@ -1,4 +1,4 @@
-FROM unityci/editor:2019.2.11f1-base-0
+FROM unityci/editor:ubuntu-2019.2.11f1-base-1
 
 LABEL "com.github.actions.name"="Unity - Return License"
 LABEL "com.github.actions.description"="Return a Unity Pro license and free up a spot towards the maximum number of active licenses."
